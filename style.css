@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+#container{
+    padding: 150px 300px;
+}
+#firstSection{
+    background-color: hsl(31, 77%, 52%);
+    padding: 30px;
+}
+#mainSection{
+    background-color: hsl(184, 100%, 22%);
+    padding: 30px;
+}
+#lastSection{
+    background-color: hsl(179, 100%, 13%);
+    padding: 30px;
+}
+body{
+    background-color: white;
+}
+h1{
+    color: hsl(0, 0%, 95%);
+    padding-top: 5px;
+    font-size: 30px;
+    font-family: "Big Shoulders Display", serif;
+}
+p{
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: "Lexend Deca", serif;
+}
+main{
+    border-radius: 10px;
+    text-align: left;
+    overflow: hidden;
+    width: 800px;
+    height: 400px;
+    display: flex;
+}
+a:link{
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 30px;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin-top: 50px;
+    font-family: "Lexend Deca", serif;
+}
+a:hover{
+    background-color: gainsboro;
+}
+#firstLink{
+    color: hsl(31, 77%, 52%);
+}
+#secondLink{
+    color: hsl(184, 100%, 22%);
+}
+#thirdLink{
+    color: hsl(179, 100%, 13%);
+}
