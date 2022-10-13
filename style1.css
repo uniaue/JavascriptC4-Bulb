@@ -1,0 +1,118 @@
+*{
+    box-sizing:content-box;
+}
+body{
+   margin:10% auto;
+  
+   
+}
+.mother-container{
+    border: 1px solid whitesmoke;
+   
+}
+        h1{
+            margin: auto;
+            font-size: 20px; 
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 800;
+            margin: 10px 30px;
+        }
+        p{
+            margin: auto;
+            padding:  20px 30px 50px;
+            line-height: 22px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+        }
+        img{
+            margin: 5px auto;
+            padding: 30px;
+        }
+        
+        #check{
+flex: 1;
+        }
+.check1{
+            border: 1px solid white;
+            margin: 80px 30px 30px;
+            width: 85px;
+            padding: 7px 30px;
+            border-radius: 20px;
+            font-size: 13px;
+            background-color: white;
+            color: hsl(31, 77%, 52%);
+}
+
+.check2{
+    border: 1px solid white;
+    margin: 80px 30px 30px;
+    font-weight: 300;
+    width: 85px;
+    padding: 7px 30px;
+    border-radius: 20px;
+    font-size: 13px;
+    background-color: white;
+    color: hsl(184, 100%, 22%);
+}
+
+.check3{
+    border: 1px solid white;
+    margin: 80px 30px 30px;
+    width: 85px;
+    padding: 7px 30px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 500;
+    background-color: white;
+    color:hsl(179, 100%, 13%) ;
+}
+ .container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+             margin: auto;
+            color: white;
+            width: 80%;
+            border-radius: 20px;
+     
+        }
+        .first-colon{
+            background-color: hsl(31, 77%, 52%);
+            text-align: justify;
+            width: 350px;
+            border-radius: 10px 0px 0px 10px;}
+
+          
+        .third-colon{
+            background-color: hsl(179, 100%, 13%);
+            text-align:justify;
+            width: 350px;
+            border-radius: 0px 10px 10px 0px;
+}
+        
+        .second-colon{ 
+            background-color:hsl(184, 100%, 22%);
+            text-align: justify;
+            width: 350px;
+        }
+        button:hover{
+            cursor: pointer;
+            background-color: transparent;
+            color: white;
+        }
+        @media screen and (max-width: 768px){
+            .whole{
+            display: block;
+            margin: 10px auto;
+            }
+            .check3{
+                margin: 20px; 
+                }
+                body{
+                    display: block;
+                    margin: 20px;
+                   }
+          .third-colon{
+           border-radius: 0px;
+
+}}
