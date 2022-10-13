@@ -1,0 +1,180 @@
+body{
+    margin: 0;
+}
+
+
+.navBar{
+    display: flex;
+    padding: 15px;
+
+}
+
+
+.arrow1{
+    height: 5px;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+
+.img-logo{
+    margin-left: 3%;
+}
+
+
+.feature{
+    text-decoration: none;
+    margin-left: 5%;
+    color: grey;
+    margin-top: 7px;
+}
+
+.company{
+    text-decoration: none;
+    margin-left: 5%;
+    color: grey;
+    margin-top: 7px;
+}
+
+.careers{
+    text-decoration: none;
+    margin-left: 5%;
+    color: grey;
+    margin-top: 7px;
+}
+
+
+.about{
+    text-decoration: none;
+    margin-left: 5%;
+    color: grey;
+    margin-top: 7px;
+}
+
+
+.login{
+    text-decoration: none;
+    margin-left: 40%;
+    color: grey;
+    margin-top: 7px;
+
+    
+}
+
+
+.register{
+    text-decoration: none;
+    margin-left: 4%;
+    width: 5%;
+    padding: 7px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    text-align: center;
+    color: grey;
+    cursor: pointer;
+}
+
+
+.content{
+    display: flex;
+    margin-top: 5%;
+}
+
+
+.text{
+    margin-left: 14%;
+}
+
+
+
+h1{
+    font-size: 95px;
+    font-weight: bolder;
+}
+
+
+
+
+.mainText{
+    font-weight: 900;
+    color: grey;
+    width: 45%;
+}
+
+
+.button{
+    background-color: black;
+    color: white;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: small;
+    margin-top: 5%;
+    cursor: pointer;
+    width: 15%;
+}
+
+
+.imgs{
+    margin-top: 7%;
+}
+
+
+.img1{
+    width: 12%;
+}
+
+
+
+.img2{
+    width: 8%;
+    margin-left: 3%;
+}
+
+
+.img3{
+    width: 11%;
+    margin-left: 3%;
+
+}
+
+
+
+.img4{
+    width: 11%;
+    margin-left: 3%;
+
+}
+
+
+.imgdsk{
+    width: 25%;
+    margin-right: 15%;
+}
+
+
+
+
+
+@media screen and (max-width: 375px){
+
+    .content{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+    }
+
+    .imgdsk{
+        width: 25%;
+        margin-right: 15%;
+        margin-bottom: 5%;
+    }
+    
+
+
+
+    
+
+
+
+}
+    
