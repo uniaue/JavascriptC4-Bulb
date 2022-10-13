@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
 *{
     box-sizing: border-box;
 }
@@ -6,15 +10,15 @@
 }
 #firstSection{
     background-color: hsl(31, 77%, 52%);
-    padding: 35px;
+    padding: 30px;
 }
 #mainSection{
     background-color: hsl(184, 100%, 22%);
-    padding: 35px;
+    padding: 30px;
 }
 #lastSection{
     background-color: hsl(179, 100%, 13%);
-    padding: 40px;
+    padding: 30px;
 }
 body{
     background-color: white;
@@ -24,22 +28,19 @@ h1{
     padding-top: 5px;
     font-size: 30px;
     font-family: "Big Shoulders Display", serif;
-    font-weight: 700;
 }
 p{
     font-size: 15px;
     color: hsla(0, 0%, 100%, 0.75);
-    font-weight: 400;
     font-family: "Lexend Deca", serif;
 }
 main{
     border-radius: 10px;
     text-align: left;
-    display: flex;
+    overflow: hidden;
     width: 800px;
     height: 400px;
-    overflow: hidden;
-    
+    display: flex;
 }
 a:link{
     background-color: hsl(0, 0%, 95%);
@@ -50,6 +51,7 @@ a:link{
     display: inline-block;
     font-size: 15px;
     margin-top: 50px;
+    font-family: "Lexend Deca", serif;
 }
 a:hover{
     background-color: gainsboro;
